@@ -2,7 +2,6 @@
 
 body{
     background-size:cover;
-    background-repeat: no-repeat;
 }
 
 .heading{
@@ -40,7 +39,7 @@ body{
 }
 
 #status{
-    width:100px;
+    width:220px;
     height:45px;
     font-size:23px;
     font-family:'Koulen',cursive;
@@ -62,8 +61,8 @@ body{
 }
 
 canvas{
-    margin-top:100px;
+    margin-top:350px;
     border-radius:10px;
     background-color:bisque;
-    box-shadow:5px 5px 5px black;  
+    box-shadow:5px 5px 5px black; 
 }
