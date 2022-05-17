@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Ai Object Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.png">
+    <center>
+        <h1 class="heading">Ai Object Finder
+            <p id="note">Enter the Name of the Object you want to find<br>
+            in the input box below.</p>
+        </h1>
+        <br><br>
+        <h3 id="input_heading">Enter Object Name Below:</h3>
+        <br>
+        <input type="text" id="input">
+        <br><br><br>
+        <button onclick="start()" id="start_btn" class="btn btn-warning">Start</button>
+        <br>
+        <h3 id="status" class="btn btn-danger">Status: </h3>
+        <br>
+        <h3 id="object_status" class="btn btn-info">Object Not Found</h3>
+    </center>
+</body>
+</html>

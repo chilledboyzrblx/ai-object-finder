@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    font-size:30px;
+    font-family: 'Koulen', cursive;
+    text-shadow:1px 1px 1px rgb(255, 255, 255);
+}
+#note{
+    font-size:20px;
+}
+#input_heading{
+    font-size:23px;
+    font-family: 'Koulen', cursive;
+    text-shadow:1px 1px 1px rgb(255, 255, 255);
+}
+#input{
+    border-radius:10px;
+    height:33px;
+    width:280px;
+    border-width:2px;
+    border-color:black;
+    font-family: 'Koulen', cursive;
+    font-size:18px;
+}
+
+#start_btn{
+    width:100px;
+    height:45px;
+    font-size:23px;
+    font-family:'Koulen',cursive;
+    border-radius:13px;
+    border-width:2px;
+    border-color:black;
+    text-shadow:1px 1px 1px black;
+}
+
+#status{
+    width:100px;
+    height:45px;
+    font-size:23px;
+    font-family:'Koulen',cursive;
+    border-radius:13px;
+    border-width:2px;
+    border-color:black;
+    text-shadow:1px 1px 1px black;
+}
+
+#object_status{
+    width:200px;
+    height:45px;
+    font-size:23px;
+    font-family:'Koulen',cursive;
+    border-radius:13px;
+    border-width:2px;
+    border-color:black;
+    text-shadow:1px 1px 1px black;
+}
+
+canvas{
+    margin-top:100px;
+    border-radius:10px;
+    background-color:bisque;
+    box-shadow:5px 5px 5px black;  
+}
